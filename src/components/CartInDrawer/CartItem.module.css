@@ -1,0 +1,16 @@
+.cart-item button {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 1rem;
+  margin: 0.25rem;
+}
+
+.cart-item button:hover,
+.cart-item button:active {
+  background-color: #059669;
+  color: white;
+}

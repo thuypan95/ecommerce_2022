@@ -1,0 +1,115 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product-list .slick-slide > div {
+  margin: 0 10px;
+}
+.product-list  .slick-list {
+  margin: 0 -10px;
+}
+.menu .active,.menu .active:hover{
+  color: #059669;
+}
+.fade-in-text {
+  animation: fadeIn linear 0.5s;
+  -webkit-animation: fadeIn linear 0.5s;
+  -moz-animation: fadeIn linear 0.5s;
+  -o-animation: fadeIn linear 0.5s;
+  -ms-animation: fadeIn linear 0.5s;
+}
+.slick-next{
+  right:0 !important;
+}
+.slick-prev{
+  z-index: 999;
+  left:0 !important;
+}
+.slick-dots{
+  bottom: 0 !important;
+}
+.slick-dots.slick-thumb{
+  bottom: inherit !important;
+  margin-top: 3px;
+}
+.slick-dots.slick-thumb li {
+  width: 50px !important;
+  height: 50px !important;
+  opacity: 0.5;
+ }
+ .slick-dots.slick-thumb li.slick-active {
+  opacity: 1;
+ }
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+.horizontal-slider {
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+}
+
+.example-thumb {
+  font-size: 0.9em;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    border: 1px solid #049669;
+    box-sizing: border-box;
+    border-radius: 6px;
+    top: 12px;
+    min-width: 50px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.example-track {
+  position: relative;
+  background: #ddd;
+  top: 20px;
+  height: 5px;
+}
+.example-thumb.active {
+  outline: none;
+}
+.example-track.example-track-1 {
+  background: #059669;
+}
+.example-track.example-track-2 {
+  background: #ddd;
+}
+.example-mark {
+  margin: 0 calc(25px - 6px);
+  bottom: calc(50% - 6px);
+  width: 8px;
+  height: 8px;
+  border: 2px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+

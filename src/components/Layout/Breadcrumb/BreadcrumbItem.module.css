@@ -1,0 +1,14 @@
+.breadcrumbItem::after{
+    content: "";
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    left: -22px;
+    top: 50%;
+    -webkit-transform: rotate(
+45deg) translateY(-50%);
+    -ms-transform: rotate(45deg) translateY(-50%);
+    transform: rotate(
+45deg) translateY(-50%);
+}

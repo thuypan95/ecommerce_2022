@@ -1,0 +1,15 @@
+.containerBreadcrumb{
+    background-image: url('https://cdn.shopify.com/s/files/1/0256/4594/0810/files/bg-breadcrumb_1920x.jpg?v=1615187740');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.containerBreadcrumb::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 50%);
+}
